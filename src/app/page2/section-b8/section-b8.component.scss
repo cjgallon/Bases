@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "InterR";
+  src: url(/../assets/fonts/Inter/static/Inter-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterB";
+  src: url(/../assets/fonts/Inter/static/Inter-Bold.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$fuente: "InterR";
+$fuentebold: "InterB";
+$colorlist: #1c1c1c;
+$colortext: #585757;
+$colorbox: #24AFB5;
+$colorfecha: #969696;
+$colorfooter: #F7F7F7;
+
+* {
+  font-family: $fuente;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sectionCont8 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid grey;
+
+        #textSection {
+            margin-top: 150px;
+            color: $colorlist;
+            font-size: 48px;
+            font-family: $fuentebold;
+            font-weight: 700;
+            line-height: 60px;
+            word-wrap: break-word;
+        }
+
+        #parSection {
+            color: #585757;
+            font-size: 20px;
+            font-family: $fuente;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+
+        #formSection {
+            margin-top: 20px;
+            width: 100%;
+            height: 100%;
+        }
+
+        #formSection input[type="text"] {
+            color: #585757;
+            opacity: 0.40;
+            outline: none;
+            width: 400px;
+            height: 40px;
+            font-size: 20px;
+            font-family: $fuente;
+            border: 1px solid #585757;
+            border-radius: 5px;
+            font-weight: 400;
+            line-height: 30px;
+            word-wrap: break-word
+        }
+
+        #formSection input[type="submit"] {
+            background-color: $colorbox;
+            width: 150px;
+            height: 43px;
+            color: white;
+            font-size: 20px;
+            border: 1px solid $colorbox;
+            font-family: $fuente;
+            border-radius: 5px;
+            margin-left: 13px;
+            font-weight: 600;
+            line-height: 26px;
+            word-wrap: break-word
+        }
+
+        #smallText {
+            color: #969696;
+            font-size: 13px;
+            font-family: $fuente;
+            margin-top: 15px;
+            margin-bottom: 100px;
+            font-weight: 400;
+            line-height: 18px;
+            word-wrap: break-word
+        }
+    }

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "InterR";
+  src: url(/../assets/fonts/Inter/static/Inter-Regular.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterB";
+  src: url(/../assets/fonts/Inter/static/Inter-Bold.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$fuente: "InterR";
+$fuentebold: "InterB";
+$colorlist: #1c1c1c;
+$colortext: #585757;
+$colorbox: #24AFB5;
+$colorfecha: #969696;
+$colorfooter: #F7F7F7;
+
+* {
+  font-family: $fuente;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  #headerCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  #menu>ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  #menu a {
+    color: $colorlist;
+    font-weight: bold;
+  }
+}
