@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TestComponent } from './page/test/test.component';
+import { Section1Component } from './page/section1/section1.component';
+import { Section2Component } from './page/section2/section2.component';
+import { Section3Component } from './page/section3/section3.component';
+import { Section4Component } from './page/section4/section4.component';
+import { Section5Component } from './page/section5/section5.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent,
+    Section1Component,
+    Section2Component,
+    Section3Component,
+    Section4Component,
+    Section5Component,
   ],
   imports: [
     BrowserModule,

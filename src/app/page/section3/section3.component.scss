@@ -1,0 +1,64 @@
+@font-face {
+  //Regular: 400
+  font-family: "inter-regular";
+  src: url(/../assets/fonts/Inter/static/Inter-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  //Semibold: 600
+  font-family: "inter-semibold";
+  src: url(/../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  //Bold: 700
+  font-family: "inter-bold";
+  src: url(/../assets/fonts/Inter/static/Inter-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$linkColor: #1C1C1C;
+$textColor: #585757;
+$botonColor: #24AFB5;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#section3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  #percentages {
+    margin-top: 15%;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .pointing {
+      display: grid;
+      grid-template-columns: .3fr 1fr;
+    }
+
+    .description {
+      margin-top: 10%;
+      margin-left: 23%;
+    }
+  }
+
+  #videogames {
+    p {
+      margin-top: 13%;
+    }
+  }
+}

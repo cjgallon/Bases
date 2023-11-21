@@ -1,0 +1,73 @@
+@font-face {
+  //Regular: 400
+  font-family: "inter-regular";
+  src: url(/../assets/fonts/Inter/static/Inter-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  //Semibold: 600
+  font-family: "inter-semibold";
+  src: url(/../assets/fonts/Inter/static/Inter-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  //Bold: 700
+  font-family: "inter-bold";
+  src: url(/../assets/fonts/Inter/static/Inter-Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$linkColor: #1C1C1C;
+$textColor: #585757;
+$botonColor: #24AFB5;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#section4 {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  h1 {
+    font-family: inter-bold;
+    font-size: 48px;
+  }
+
+  p {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: inter-regular;
+    font-size: 20px;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    h3 {
+      margin-top: 3%;
+      font-family: inter-semibold;
+      font-size: 15px;
+    }
+  }
+
+  img {
+    margin-top: 5%;
+    max-width: 90%;
+    height: auto;
+  }
+
+}
